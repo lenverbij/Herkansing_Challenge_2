@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+#text{
+	display: none;
+}
+p{
+	text-align: center;
+	margin-top:20%;
+	font-size: 30px;
+}
+
+#klok {
+  font-size: 50px;
+  text-align: center;
+  margin-top:  10%;
+}
+.avond{
+	background-color: grey;
+	color: white;
+}
+.nacht{
+	background-color: black;
+	color: white;
+}
+.overdag{
+	background-color: white;
+	color: black;
+}
+
+#stitch{
+  display: flex;
+  justify-content: center;
+}
+
+.stitch2{
+	width: 80%;
+	margin-top: 20%;
+}
+
+/* --- BreakPoints --- */
+
+@media (min-width: 600px) {
+	p{
+	font-size: 40px;
+	}
+	#klok {
+	font-size: 55px;
+	}
+	#text{
+	display: block;
+}
+}
+
+@media (min-width: 900px) {
+   p{
+	font-size: 50px;
+	}
+	#klok {
+	font-size: 55px;
+	}
+	.stitch2{
+	width: 60%;
+	margin-top: 10%;
+}
+}
+
+@media (min-width: 1200px) {
+    p{
+	font-size: 60px;
+	margin-top: 10%;
+	}
+	#klok {
+	font-size: 60px;
+	margin-top: 5%;
+	}
+	.stitch2{
+	width: 50%;
+	margin-top: 5%;
+}
+}
+
+@media (min-width: 1600px) {
+    p{
+	font-size: 65px;
+	display: inline;
+
+	}
+	#klok {
+	font-size: 70px;
+	display: inline;
+	}
+	.stitch2{
+	width: 70%;
+	}
+	.container{
+	float: left;
+	margin-top:10%;
+	margin-left: 5%;
+	}
+}
